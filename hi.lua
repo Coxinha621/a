@@ -18,7 +18,7 @@ end
 
 local library = loadstring(game:HttpGet("https://pastebin.com/raw/6EEJc0M5",true))() -- https://pastebin.com/raw/SjcYQ23F
 
-local guiname = "   " .. MarketplaceService:GetProductInfo(game.PlaceId).Name .. "      THIS GUI WAS MADE BY Haru"
+local guiname = "   " .. MarketplaceService:GetProductInfo(game.PlaceId).Name .. "      THIS GUI WAS MADE BY HARU"
 
 if Players.LocalPlayer.UserId == 3207091435 then -- little something for me
 	guiname = "   " .. MarketplaceService:GetProductInfo(game.PlaceId).Name .. "      OWNER GUI"
