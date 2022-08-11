@@ -1,4 +1,3 @@
-
 local function service(...) return game:GetService(...) end
 local Players = service("Players")
 local MarketplaceService = service("MarketplaceService")
@@ -28,7 +27,7 @@ end
 local Window,frame = library:AddWindow(guiname, {
 	main_color = Color3.fromRGB(255, 0, 191),
 	min_size = Vector2.new(550, 600),
-	toggle_key = Enum.KeyCode.Insert,
+	toggle_key = Enum.KeyCode.RightShift,
 	can_resize = true,
 })
 
